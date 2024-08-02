@@ -29,7 +29,7 @@
 					"type": "number",
 					"label": "port",
 					"tooltip": "portTooltip",
-					"default": 8883,
+					"default": 8888,
 					"sm": 1
 				},
 				"AuthenticationHeader": {

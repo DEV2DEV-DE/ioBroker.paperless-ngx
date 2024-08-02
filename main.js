@@ -9,7 +9,7 @@
 const utils = require("@iobroker/adapter-core");
 
 // Load your modules here, e.g.:
-// const fs = require("fs");
+const paperlesscommunicationClass = require("./lib/modules/paperlessCommunication");
 
 class PaperlessNgx extends utils.Adapter {
 
@@ -33,7 +33,9 @@ class PaperlessNgx extends utils.Adapter {
 	 */
 	async onReady() {
 		// Initialize your adapter here
-
+		this.paperlessCommunication = new paperlesscommunicationClass(this);
+		this.paperlessCommunication.readTags();
+		this.paperlessCommunication.readDocuments();
 		// Reset the connection indicator during startup
 		this.setState("info.connection", false, true);
 
