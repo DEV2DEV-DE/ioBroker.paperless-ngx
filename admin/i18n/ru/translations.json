@@ -1,7 +1,5 @@
 {
     "paperless-ngx adapter settings": "Настройки адаптера для paperless-ngx",
-    "option1": "Опция 1",
-    "option2": "вариант 2",
     "mainSettings": "Основные настройки",
     "ServersettingsHeader": "Настройки сервера",
     "Serverinformation": "Установите основные настройки связи на ваш сервер",
@@ -14,5 +12,14 @@
     "username": "имя пользователя",
     "usernameTooltip": "введите свое имя пользователя",
     "password": "пароль",
-    "passwordTooltip": "введите свой пароль"
+    "passwordTooltip": "введите свой пароль",
+    "DatasettingsHeader": "Настройки данных",
+    "Datainformation": "Установите настройки данных, которые будут считываться",
+    "refreshCycle": "цикл обновления",
+    "refreshCycleTooltip": "введите желаемый cronJob, который считывает данные из вашего экземпляра",
+    "withDocuments": "документы",
+    "withDocumentsTooltip": "установите флажок для считывания документов",
+    "withTags": "теги",
+    "withTagsTooltip": "установите флажок для считывания тегов",
+    "dataSettings": "Настройки данных"
 }

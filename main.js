@@ -10,6 +10,7 @@ const utils = require("@iobroker/adapter-core");
 
 // Load your modules here, e.g.:
 const paperlesscommunicationClass = require("./lib/modules/paperlessCommunication");
+const schedule = require("node-schedule");
 
 class PaperlessNgx extends utils.Adapter {
 
@@ -26,6 +27,12 @@ class PaperlessNgx extends utils.Adapter {
 		// this.on("objectChange", this.onObjectChange.bind(this));
 		// this.on("message", this.onMessage.bind(this));
 		this.on("unload", this.onUnload.bind(this));
+
+		this.cronJobs = {};
+		this.cronJobIds = {
+			refreshCycle: "refreshCycle"
+		};
+		this.isUnloaded = false;
 	}
 
 	/**
@@ -36,8 +43,21 @@ class PaperlessNgx extends utils.Adapter {
 		this.paperlessCommunication = new paperlesscommunicationClass(this);
 		await this.paperlessCommunication.readActualData();
 		// Reset the connection indicator during startup
-		this.setState("info.connection", false, true);
+		this.setState("info.connection", true, true);
 
+		this.cronJobs[this.cronJobIds.refreshCycle] = schedule.scheduleJob(this.config.refreshCycle,this.readActualDataCyclic.bind(this));
+	}
+
+	async readActualDataCyclic(){
+		await this.paperlessCommunication?.readActualData();
+	}
+
+	clearAllSchedules(){
+		for(const cronJob in this.cronJobs)
+		{
+			schedule.cancelJob(this.cronJobs[cronJob]);
+			delete this.cronJobs[cronJob];
+		}
 	}
 
 	/**
@@ -46,6 +66,7 @@ class PaperlessNgx extends utils.Adapter {
 	 */
 	onUnload(callback) {
 		try {
+			this.clearAllSchedules();
 			// Here you must clear all timeouts or intervals that may still be active
 			// clearTimeout(timeout1);
 			// clearTimeout(timeout2);

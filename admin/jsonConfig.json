@@ -6,13 +6,13 @@
             "type": "panel",
             "label": "mainSettings",
 			"items": {
-				"ServersettingsHeader": {
+				"_serversettingsHeader": {
 					"newLine": true,
 					"type": "header",
 					"text": "ServersettingsHeader",
 					"size": 3
 				},
-				"Serverinformation":{
+				"_serverinformation":{
 					"newLine":true,
 					"type": "staticText",
 					"label": "Serverinformation"
@@ -32,13 +32,13 @@
 					"default": 8888,
 					"sm": 1
 				},
-				"AuthenticationHeader": {
+				"_authenticationHeader": {
 					"newLine": true,
 					"type": "header",
 					"text": "AuthenticationHeader",
 					"size": 3
 				},
-				"AuthenticationInformation":{
+				"_authenticationInformation":{
 					"newLine":true,
 					"type": "staticText",
 					"label": "AuthenticationInformation"
@@ -58,6 +58,47 @@
 					"default": "",
 					"sm": 3
 				}
+			}
+		},
+		"dataTab":{
+            "type": "panel",
+            "label": "dataSettings",
+			"items": {
+				"_datasettingsHeader": {
+					"newLine": true,
+					"type": "header",
+					"text": "DatasettingsHeader",
+					"size": 3
+				},
+				"_datainformation":{
+					"newLine":true,
+					"type": "staticText",
+					"label": "Datainformation"
+				},
+				"refreshCycle": {
+                    "newLine": true,
+                    "type": "cron",
+                    "complex": true,
+                    "label": "refreshCycle",
+                    "tooltip": "refreshCycleTooltip",
+                    "sm":2,
+                    "default": "* * * * *"
+				},
+				"withDocuments": {
+                    "newLine":true,
+                    "type": "checkbox",
+                    "label": "withDocuments",
+                    "tooltip": "withDocumentsTooltip",
+                    "default": false,
+                    "sm": 2
+                },
+				"withTags": {
+                    "type": "checkbox",
+                    "label": "withTags",
+                    "tooltip": "withTagsTooltip",
+                    "default": true,
+                    "sm": 2
+                }
 			}
 		}
 	}

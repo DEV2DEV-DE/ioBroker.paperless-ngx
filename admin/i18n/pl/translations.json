@@ -1,7 +1,5 @@
 {
-    "paperless-ngx adapter settings": "Ustawienia adaptera dla paperless-ngx",
-    "option1": "opcja 1",
-    "option2": "Opcja 2",
+    "paperless-ngx adapter settings": "Ustawienia adaptera dla Paperless-ngx",
     "mainSettings": "Ustawienia główne",
     "ServersettingsHeader": "Ustawienia serwera",
     "Serverinformation": "Skonfiguruj główne ustawienia komunikacji z serwerem",
@@ -14,5 +12,14 @@
     "username": "nazwa użytkownika",
     "usernameTooltip": "wprowadź swoją nazwę użytkownika",
     "password": "hasło",
-    "passwordTooltip": "wprowadź hasło"
+    "passwordTooltip": "wprowadź hasło",
+    "DatasettingsHeader": "Ustawienia danych",
+    "Datainformation": "Ustaw ustawienia danych, które będą odczytywane",
+    "refreshCycle": "cykl odświeżania",
+    "refreshCycleTooltip": "wprowadź żądany cronJob, który odczyta dane z Twojej instancji",
+    "withDocuments": "dokumenty",
+    "withDocumentsTooltip": "zaznacz pole wyboru do odczytu dokumentów",
+    "withTags": "tagi",
+    "withTagsTooltip": "zaznacz pole wyboru, aby odczytać tagi",
+    "dataSettings": "Ustawienia danych"
 }

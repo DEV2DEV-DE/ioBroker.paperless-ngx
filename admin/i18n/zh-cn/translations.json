@@ -1,7 +1,5 @@
 {
-    "paperless-ngx adapter settings": "paperless-ngx的适配器设置",
-    "option1": "选项1",
-    "option2": "选项2",
+    "paperless-ngx adapter settings": "paperless-ngx 的适配器设置",
     "mainSettings": "主要设置",
     "ServersettingsHeader": "服务器设置",
     "Serverinformation": "设置服务器的主要通信设置",
@@ -14,5 +12,14 @@
     "username": "用户名",
     "usernameTooltip": "输入您的用户名",
     "password": "密码",
-    "passwordTooltip": "输入您的密码"
+    "passwordTooltip": "输入您的密码",
+    "DatasettingsHeader": "数据设置",
+    "Datainformation": "设置数据设置，将被读出",
+    "refreshCycle": "刷新周期",
+    "refreshCycleTooltip": "输入所需的 cronJob，它会从您的实例中读取数据",
+    "withDocuments": "文件",
+    "withDocumentsTooltip": "选择复选框以读出文档",
+    "withTags": "标签",
+    "withTagsTooltip": "选择复选框以读出标签",
+    "dataSettings": "数据设置"
 }

@@ -1,7 +1,5 @@
 {
-    "paperless-ngx adapter settings": "Налаштування адаптера для paperless-ngx",
-    "option1": "варіант1",
-    "option2": "варіант2",
+    "paperless-ngx adapter settings": "Параметри адаптера для paperless-ngx",
     "mainSettings": "Основні налаштування",
     "ServersettingsHeader": "Налаштування сервера",
     "Serverinformation": "Встановіть основні параметри зв'язку на вашому сервері",
@@ -14,5 +12,14 @@
     "username": "ім'я користувача",
     "usernameTooltip": "введіть своє ім'я користувача",
     "password": "пароль",
-    "passwordTooltip": "введіть свій пароль"
+    "passwordTooltip": "введіть свій пароль",
+    "DatasettingsHeader": "Параметри даних",
+    "Datainformation": "Встановіть параметри даних, які будуть зчитані",
+    "refreshCycle": "цикл оновлення",
+    "refreshCycleTooltip": "введіть потрібний cronJob, який зчитує дані з вашого екземпляра",
+    "withDocuments": "документів",
+    "withDocumentsTooltip": "установіть прапорець для читання документів",
+    "withTags": "теги",
+    "withTagsTooltip": "установіть прапорець для зчитування тегів",
+    "dataSettings": "Параметри даних"
 }

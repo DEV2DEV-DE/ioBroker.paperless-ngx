@@ -12,5 +12,14 @@
 	"username": "username",
 	"usernameTooltip": "input your username",
 	"password": "password",
-	"passwordTooltip": "input you password"
+	"passwordTooltip": "input you password",
+	"dataSettings": "Datasettings",
+	"DatasettingsHeader": "Datasettings",
+	"Datainformation": "Set the data settings, which will be read out",
+	"refreshCycle": "refresh cycle",
+	"refreshCycleTooltip": "enter the desired cronJob, wich reads out the data from your instance",
+	"withDocuments": "documents",
+	"withDocumentsTooltip": "select checkbox for readout the documents",
+	"withTags": "tags",
+	"withTagsTooltip": "select checkbox for readout the tags"
 }

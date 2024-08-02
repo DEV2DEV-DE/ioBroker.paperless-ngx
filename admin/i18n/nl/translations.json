@@ -1,7 +1,5 @@
 {
     "paperless-ngx adapter settings": "Adapterinstellingen voor paperless-ngx",
-    "option1": "Optie 1",
-    "option2": "Optie 2",
     "mainSettings": "Belangrijkste instellingen",
     "ServersettingsHeader": "Serverinstellingen",
     "Serverinformation": "Stel de belangrijkste communicatie-instellingen in op uw server",
@@ -14,5 +12,14 @@
     "username": "gebruikersnaam",
     "usernameTooltip": "voer uw gebruikersnaam in",
     "password": "wachtwoord",
-    "passwordTooltip": "voer uw wachtwoord in"
+    "passwordTooltip": "voer uw wachtwoord in",
+    "DatasettingsHeader": "Gegevensinstellingen",
+    "Datainformation": "Stel de gegevensinstellingen in, die worden uitgelezen",
+    "refreshCycle": "vernieuwingscyclus",
+    "refreshCycleTooltip": "voer de gewenste cronJob in, die de gegevens van uw instance uitleest",
+    "withDocuments": "documenten",
+    "withDocumentsTooltip": "selecteer het selectievakje om de documenten uit te lezen",
+    "withTags": "labels",
+    "withTagsTooltip": "selecteer het selectievakje om de tags uit te lezen",
+    "dataSettings": "Gegevensinstellingen"
 }

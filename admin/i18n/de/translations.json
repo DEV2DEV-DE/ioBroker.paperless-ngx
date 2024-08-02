@@ -12,5 +12,14 @@
     "username": "Nutzername",
     "usernameTooltip": "Geben Sie Ihren Benutzernamen ein",
     "password": "Passwort",
-    "passwordTooltip": "Geben Sie Ihr Passwort ein"
+    "passwordTooltip": "Geben Sie Ihr Passwort ein",
+    "dataSettings": "Dateneinstellungen",
+    "DatasettingsHeader": "Dateneinstellungen",
+    "Datainformation": "Legen Sie die Dateneinstellungen fest, die ausgelesen werden sollen",
+    "refreshCycle": "Aktualisierungszyklus",
+    "refreshCycleTooltip": "Geben Sie den gewünschten CronJob ein, der die Daten aus Ihrer Instanz ausliest",
+    "withDocuments": "Dokumente",
+    "withDocumentsTooltip": "Aktivieren Sie die Schaltfläche zum Auslesen der Dokumente",
+    "withTags": "Tags",
+    "withTagsTooltip": "Aktivieren Sie das die Schaltfläche zum Auslesen der Tags"
 }

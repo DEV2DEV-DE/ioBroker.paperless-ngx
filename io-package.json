@@ -103,10 +103,27 @@
   ],
   "native": {
     "username": "",
-    "password": ""
+    "password": "",
+    "refreshCycle": "* * * * *"
   },
   "objects": [],
   "instanceObjects": [
+    {
+      "_id": "documents",
+      "type": "channel",
+      "common": {
+        "name": "documents"
+      },
+      "native": {}
+    },
+    {
+      "_id": "tags",
+      "type": "channel",
+      "common": {
+        "name": "tags"
+      },
+      "native": {}
+    },
     {
       "_id": "info",
       "type": "channel",
