@@ -34,8 +34,7 @@ class PaperlessNgx extends utils.Adapter {
 	async onReady() {
 		// Initialize your adapter here
 		this.paperlessCommunication = new paperlesscommunicationClass(this);
-		this.paperlessCommunication.readTags();
-		this.paperlessCommunication.readDocuments();
+		await this.paperlessCommunication.readActualData();
 		// Reset the connection indicator during startup
 		this.setState("info.connection", false, true);
 
