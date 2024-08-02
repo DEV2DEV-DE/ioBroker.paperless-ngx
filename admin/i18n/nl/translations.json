@@ -1,5 +1,18 @@
 {
-	"paperless-ngx adapter settings": "Adapterinstellingen voor paperless-ngx",
-	"option1": "Optie 1",
-	"option2": "Optie 2"
+    "paperless-ngx adapter settings": "Adapterinstellingen voor paperless-ngx",
+    "option1": "Optie 1",
+    "option2": "Optie 2",
+    "mainSettings": "Belangrijkste instellingen",
+    "ServersettingsHeader": "Serverinstellingen",
+    "Serverinformation": "Stel de belangrijkste communicatie-instellingen in op uw server",
+    "ipUrl": "url of ip van de server",
+    "ipUrlTooltip": "voer het ip-adres in, of de url waarmee u verbinding wilt maken",
+    "port": "haven",
+    "portTooltip": "voer de poort voor de verbinding in",
+    "AuthenticationHeader": "Authenticatie-instellingen",
+    "AuthenticationInformation": "Stel de authenticatie voor uw server in (indien nodig)",
+    "username": "gebruikersnaam",
+    "usernameTooltip": "voer uw gebruikersnaam in",
+    "password": "wachtwoord",
+    "passwordTooltip": "voer uw wachtwoord in"
 }

@@ -1,5 +1,18 @@
 {
-	"paperless-ngx adapter settings": "paperless-ngx的适配器设置",
-	"option1": "选项1",
-	"option2": "选项2"
+    "paperless-ngx adapter settings": "paperless-ngx的适配器设置",
+    "option1": "选项1",
+    "option2": "选项2",
+    "mainSettings": "主要设置",
+    "ServersettingsHeader": "服务器设置",
+    "Serverinformation": "设置服务器的主要通信设置",
+    "ipUrl": "服务器的 url 或 ip",
+    "ipUrlTooltip": "输入ip地址，或者你想要连接的url",
+    "port": "港口",
+    "portTooltip": "输入连接的端口",
+    "AuthenticationHeader": "身份验证设置",
+    "AuthenticationInformation": "设置服务器的身份验证（如果需要）",
+    "username": "用户名",
+    "usernameTooltip": "输入您的用户名",
+    "password": "密码",
+    "passwordTooltip": "输入您的密码"
 }

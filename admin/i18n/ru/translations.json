@@ -1,5 +1,18 @@
 {
-	"paperless-ngx adapter settings": "Настройки адаптера для paperless-ngx",
-	"option1": "Опция 1",
-	"option2": "вариант 2"
+    "paperless-ngx adapter settings": "Настройки адаптера для paperless-ngx",
+    "option1": "Опция 1",
+    "option2": "вариант 2",
+    "mainSettings": "Основные настройки",
+    "ServersettingsHeader": "Настройки сервера",
+    "Serverinformation": "Установите основные настройки связи на ваш сервер",
+    "ipUrl": "URL или IP сервера",
+    "ipUrlTooltip": "введите IP-адрес или URL-адрес, к которому вы хотите подключиться",
+    "port": "порт",
+    "portTooltip": "введите порт для подключения",
+    "AuthenticationHeader": "Настройки аутентификации",
+    "AuthenticationInformation": "Установите аутентификацию для вашего сервера (при необходимости)",
+    "username": "имя пользователя",
+    "usernameTooltip": "введите свое имя пользователя",
+    "password": "пароль",
+    "passwordTooltip": "введите свой пароль"
 }

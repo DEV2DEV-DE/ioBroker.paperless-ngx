@@ -1,16 +1,64 @@
 {
 	"i18n": true,
-	"type": "panel",
-	"items": {
-		"option1": {
-			"type": "checkbox",
-			"label": "option1",
-			"newLine": true
-		},
-		"option2": {
-			"type": "text",
-			"label": "option2",
-			"newLine": true
+	"type": "tabs",
+	"items":{
+        "mainTab":{
+            "type": "panel",
+            "label": "mainSettings",
+			"items": {
+				"ServersettingsHeader": {
+					"newLine": true,
+					"type": "header",
+					"text": "ServersettingsHeader",
+					"size": 3
+				},
+				"Serverinformation":{
+					"newLine":true,
+					"type": "staticText",
+					"label": "Serverinformation"
+				},
+				"ipUrl":{
+					"newLine": true,
+					"type": "text",
+					"label": "ipUrl",
+					"tooltip": "ipUrlTooltip",
+					"default": "",
+					"sm": 4
+				},
+				"port":{
+					"type": "number",
+					"label": "port",
+					"tooltip": "portTooltip",
+					"default": 8883,
+					"sm": 1
+				},
+				"AuthenticationHeader": {
+					"newLine": true,
+					"type": "header",
+					"text": "AuthenticationHeader",
+					"size": 3
+				},
+				"AuthenticationInformation":{
+					"newLine":true,
+					"type": "staticText",
+					"label": "AuthenticationInformation"
+				},
+				"username":{
+					"newLine":true,
+					"type": "text",
+					"label": "username",
+					"tooltip": "usernameTooltip",
+					"default": "",
+					"sm": 4
+				},
+				"password":{
+					"type": "password",
+					"label": "password",
+					"tooltip": "passwordTooltip",
+					"default": "",
+					"sm": 3
+				}
+			}
 		}
 	}
 }
