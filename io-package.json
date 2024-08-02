@@ -52,13 +52,11 @@
             "ngx",
             "document"
         ],
-        "license": "MIT",
         "licenseInformation": {
             "type": "free",
             "license": "MIT"
         },
         "platform": "Javascript/Node.js",
-        "main": "main.js",
         "icon": "paperless-ngx.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/BenAhrdt/ioBroker.paperless-ngx/main/admin/paperless-ngx.png",
