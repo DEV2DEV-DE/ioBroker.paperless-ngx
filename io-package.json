@@ -1,119 +1,132 @@
 {
-    "common": {
-        "name": "paperless-ngx",
-        "version": "0.0.1",
-        "news": {
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "uk": "Початкова версія",
-                "zh-cn": "首次出版"
-            }
-        },
-        "title": "paperless-ngx",
-        "titleLang": {
-            "en": "paperless-ngx",
-            "de": "paperless-ngx",
-            "ru": "безбумажный-ngx",
-            "pt": "sem papel-ngx",
-            "nl": "papierloze-ngx",
-            "fr": "sans papier-ngx",
-            "it": "paperless-ngx",
-            "es": "ngx sin papel",
-            "pl": "bez papieru-ngx",
-            "uk": "paperless-ngx",
-            "zh-cn": "无纸化NGX"
-        },
-        "desc": {
-            "en": "paperless-ngx API zu get information of uploaded documents",
-            "de": "paperless-ngx API, um Informationen zu hochgeladenen Dokumenten abzurufen",
-            "ru": "paperless-ngx API для получения информации о загруженных документах",
-            "pt": "API paperless-ngx para obter informações de documentos carregados",
-            "nl": "paperless-ngx API om informatie te krijgen over geüploade documenten",
-            "fr": "API paperless-ngx pour obtenir des informations sur les documents téléchargés",
-            "it": "API paperless-ngx per ottenere informazioni sui documenti caricati",
-            "es": "API paperless-ngx para obtener información de los documentos cargados",
-            "pl": "Paperless-ngx API zu uzyskać informacje o przesłanych dokumentach",
-            "uk": "API paperless-ngx для отримання інформації про завантажені документи",
-            "zh-cn": "paperless-ngx API zu 获取上传文档的信息"
-        },
-        "authors": [
-            "BenAhrdt <bsahrdt@gmail.com>"
-        ],
-        "keywords": [
-            "paperless",
-            "ngx",
-            "document"
-        ],
-        "licenseInformation": {
-            "type": "free",
-            "license": "MIT"
-        },
-        "platform": "Javascript/Node.js",
-        "icon": "paperless-ngx.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/BenAhrdt/ioBroker.paperless-ngx/main/admin/paperless-ngx.png",
-        "readme": "https://github.com/BenAhrdt/ioBroker.paperless-ngx/blob/main/README.md",
-        "loglevel": "info",
-        "tier": 3,
-        "mode": "daemon",
-        "type": "storage",
-        "compact": true,
-        "connectionType": "local",
-        "dataSource": "poll",
-        "adminUI": {
-            "config": "json"
-        },
-        "dependencies": [
-            {
-                "js-controller": ">=3.3.22"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=5.1.13"
-            }
-        ]
+  "common": {
+    "name": "paperless-ngx",
+    "version": "0.0.2",
+    "news": {
+      "0.0.2": {
+        "en": "initial release",
+        "de": "erstausstrahlung",
+        "ru": "первоначальный выпуск",
+        "pt": "lançamento inicial",
+        "nl": "eerste release",
+        "fr": "libération initiale",
+        "it": "rilascio iniziale",
+        "es": "liberación inicial",
+        "pl": "początkowe zwolnienie",
+        "uk": "початковий реліз",
+        "zh-cn": "初步释放"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
     },
-    "encryptedNative": [
-        "password"
-    ],
-    "protectedNative": [
-        "password"
-    ],
-    "native": {
-        "username": "",
-        "password": ""
+    "title": "paperless-ngx",
+    "titleLang": {
+      "en": "paperless-ngx",
+      "de": "paperless-ngx",
+      "ru": "безбумажный-ngx",
+      "pt": "sem papel-ngx",
+      "nl": "papierloze-ngx",
+      "fr": "sans papier-ngx",
+      "it": "paperless-ngx",
+      "es": "ngx sin papel",
+      "pl": "bez papieru-ngx",
+      "uk": "paperless-ngx",
+      "zh-cn": "无纸化NGX"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "Device or service connected",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "paperless-ngx API zu get information of uploaded documents",
+      "de": "paperless-ngx API, um Informationen zu hochgeladenen Dokumenten abzurufen",
+      "ru": "paperless-ngx API для получения информации о загруженных документах",
+      "pt": "API paperless-ngx para obter informações de documentos carregados",
+      "nl": "paperless-ngx API om informatie te krijgen over geüploade documenten",
+      "fr": "API paperless-ngx pour obtenir des informations sur les documents téléchargés",
+      "it": "API paperless-ngx per ottenere informazioni sui documenti caricati",
+      "es": "API paperless-ngx para obtener información de los documentos cargados",
+      "pl": "Paperless-ngx API zu uzyskać informacje o przesłanych dokumentach",
+      "uk": "API paperless-ngx для отримання інформації про завантажені документи",
+      "zh-cn": "paperless-ngx API zu 获取上传文档的信息"
+    },
+    "authors": [
+      "BenAhrdt <bsahrdt@gmail.com>"
+    ],
+    "keywords": [
+      "paperless",
+      "ngx",
+      "document"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "paperless-ngx.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/BenAhrdt/ioBroker.paperless-ngx/main/admin/paperless-ngx.png",
+    "readme": "https://github.com/BenAhrdt/ioBroker.paperless-ngx/blob/main/README.md",
+    "loglevel": "info",
+    "tier": 3,
+    "mode": "daemon",
+    "type": "storage",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.22"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=5.1.13"
+      }
     ]
+  },
+  "encryptedNative": [
+    "password"
+  ],
+  "protectedNative": [
+    "password"
+  ],
+  "native": {
+    "username": "",
+    "password": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device or service connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
