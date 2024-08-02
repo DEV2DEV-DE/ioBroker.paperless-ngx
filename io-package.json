@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "news": {
+      "0.0.3": {
+        "en": "bugfixes for set states wrigth",
+        "de": "bugfixes für eingestellte zustände wrigth",
+        "ru": "bugfixes for set states wrigth",
+        "pt": "correções de bugs para estados definidos",
+        "nl": "bugfixes voor ingestelde status wrigth",
+        "fr": "bugfixes pour les états définis wrigth",
+        "it": "bugfixs for set stati wrigth",
+        "es": "bugfixes for set states wrigth",
+        "pl": "bugfixes for set states wrigth",
+        "uk": "виправлення помилок для встановлених станів",
+        "zh-cn": "设定状态的错误修正wrigth"
+      },
       "0.0.2": {
         "en": "initial release",
         "de": "erstausstrahlung",
