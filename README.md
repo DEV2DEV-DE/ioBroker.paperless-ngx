@@ -18,7 +18,7 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.0.4 (2024-08-03)
 * (BenAhrdt) readoutlevel for dataconnection
 
 ### 0.0.3 (2024-08-02)

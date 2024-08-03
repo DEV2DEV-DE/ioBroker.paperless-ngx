@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "news": {
+      "0.0.4": {
+        "en": "readoutlevel for dataconnection",
+        "de": "readoutlevel für die datenverbindung",
+        "ru": "уровень чтения для подключения данных",
+        "pt": "nível de leitura para conexão de dados",
+        "nl": "readoutlevel voor dataconnectie",
+        "fr": "niveau de lecture pour la connexion des données",
+        "it": "livello di lettura per la connessione dei dati",
+        "es": "nivel de lectura para la conexión de datos",
+        "pl": "poziom odczytu dla danychonnection",
+        "uk": "рівень зчитування даних",
+        "zh-cn": "数据连接读出级别"
+      },
       "0.0.3": {
         "en": "bugfixes for set states wrigth",
         "de": "bugfixes für eingestellte zustände wrigth",
