@@ -117,7 +117,10 @@
   "native": {
     "username": "",
     "password": "",
-    "refreshCycle": "* * * * *"
+    "refreshCycle": "* * * * *",
+    "documentsLoglevel": 0,
+    "documentTypesLoglevel": 0,
+    "tagsLoglevel": 2
   },
   "objects": [],
   "instanceObjects": [
@@ -130,10 +133,19 @@
       "native": {}
     },
     {
+      "_id": "document_types",
+      "type": "channel",
+      "common": {
+        "name": "document types"
+      },
+      "native": {}
+    },
+    {
       "_id": "tags",
       "type": "channel",
       "common": {
-        "name": "tags"
+        "name": "tags",
+        "role": "value"
       },
       "native": {}
     },

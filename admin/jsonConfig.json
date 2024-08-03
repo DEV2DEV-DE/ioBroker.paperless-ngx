@@ -84,21 +84,45 @@
                     "sm":2,
                     "default": "* * * * *"
 				},
-				"withDocuments": {
-                    "newLine":true,
-                    "type": "checkbox",
-                    "label": "withDocuments",
-                    "tooltip": "withDocumentsTooltip",
-                    "default": false,
-                    "sm": 2
-                },
-				"withTags": {
-                    "type": "checkbox",
-                    "label": "withTags",
-                    "tooltip": "withTagsTooltip",
-                    "default": true,
-                    "sm": 2
-                }
+				"documentsLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "documentsLoglevel",
+					"tooltip": "documentsLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "without",
+					"sm":2
+				},
+				"documentTypesLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "documentTypesLoglevel",
+					"tooltip": "documentTypesLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "without",
+					"sm":2
+				},
+				"tagsLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "tagsLoglevel",
+					"tooltip": "tagsLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "Detailed",
+					"sm":2
+				}
 			}
 		}
 	}
