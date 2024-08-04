@@ -46,6 +46,10 @@ class PaperlessNgx extends utils.Adapter {
 		this.setState("info.connection", true, true);
 
 		this.cronJobs[this.cronJobIds.refreshCycle] = schedule.scheduleJob(this.config.refreshCycle,this.readActualDataCyclic.bind(this));
+
+		// Subscribe internal writefunctions
+		this.subscribeStatesAsync("search.query");
+
 	}
 
 	async readActualDataCyclic(){
@@ -101,13 +105,18 @@ class PaperlessNgx extends utils.Adapter {
 	 * @param {string} id
 	 * @param {ioBroker.State | null | undefined} state
 	 */
-	onStateChange(id, state) {
+	async onStateChange(id, state) {
 		if (state) {
 			// The state was changed
-			this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+			// this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+			// just handle statechanges without ack
+			if(!state.ack){
+				await this.paperlessCommunication?.sendSearchQuery(state.val);
+				this.setState(id,state.val,true);
+			}
 		} else {
 			// The state was deleted
-			this.log.info(`state ${id} deleted`);
+			// this.log.info(`state ${id} deleted`);
 		}
 	}
 
