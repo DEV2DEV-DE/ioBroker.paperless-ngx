@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "news": {
+      "0.0.5": {
+        "en": "first query function implemented",
+        "de": "erste abfragefunktion implementiert",
+        "ru": "первая функция запроса реализована",
+        "pt": "primeira função de consulta implementada",
+        "nl": "eerste query-functie geïmplementeerd",
+        "fr": "première fonction de requête implémentée",
+        "it": "prima funzione query implementata",
+        "es": "primera función de consulta implementada",
+        "pl": "zaimplementowana funkcja pierwszego zapytania",
+        "uk": "перша функція запиту",
+        "zh-cn": "第一个查询功能已执行"
+      },
       "0.0.4": {
         "en": "readoutlevel for dataconnection",
         "de": "readoutlevel für die datenverbindung",
