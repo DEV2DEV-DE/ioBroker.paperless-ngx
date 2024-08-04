@@ -157,8 +157,34 @@
       "_id": "tags",
       "type": "channel",
       "common": {
-        "name": "tags",
-        "role": "value"
+        "name": "tags"
+      },
+      "native": {}
+    },
+    {
+      "_id": "search",
+      "type": "channel",
+      "common": {
+        "name": "search"
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.results",
+      "type": "folder",
+      "common": {
+        "name": "result of search query"
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.query",
+      "type": "state",
+      "common": {
+        "name": "query of search",
+        "type": "string",
+        "role": "text",
+        "default": ""
       },
       "native": {}
     },
