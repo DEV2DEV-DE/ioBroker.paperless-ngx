@@ -26,5 +26,6 @@
     "documentTypesLoglevelTooltip": "选择复选框以读出文档类型",
     "without": "没有",
     "Basic": "基本的",
-    "Detailed": "详细的"
+    "Detailed": "详细的",
+    "All": "全部"
 }

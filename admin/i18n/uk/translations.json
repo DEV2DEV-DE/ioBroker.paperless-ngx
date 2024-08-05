@@ -26,5 +26,6 @@
     "documentTypesLoglevelTooltip": "установіть прапорець для зчитування типів документів",
     "without": "без",
     "Basic": "Базовий",
-    "Detailed": "Детальний"
+    "Detailed": "Детальний",
+    "All": "все"
 }

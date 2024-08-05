@@ -26,5 +26,6 @@
 	"documentTypesLoglevelTooltip": "select checkbox for readout the document types",
 	"without": "without",
 	"Basic": "Basic",
-	"Detailed": "Detailed"
+	"Detailed": "Detailed",
+	"All": "All"
 }

@@ -26,5 +26,6 @@
     "documentTypesLoglevelTooltip": "установите флажок для считывания типов документов",
     "without": "без",
     "Basic": "Базовый",
-    "Detailed": "Подробный"
+    "Detailed": "Подробный",
+    "All": "Все"
 }

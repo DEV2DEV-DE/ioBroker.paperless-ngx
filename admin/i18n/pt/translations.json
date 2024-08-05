@@ -26,5 +26,6 @@
     "documentTypesLoglevelTooltip": "marque a caixa de seleção para ler os tipos de documento",
     "without": "sem",
     "Basic": "Básico",
-    "Detailed": "Detalhado"
+    "Detailed": "Detalhado",
+    "All": "Todos"
 }

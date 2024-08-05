@@ -159,6 +159,22 @@
       "native": {}
     },
     {
+      "_id": "documents.basic",
+      "type": "folder",
+      "common": {
+        "name": "Basicstructure"
+      },
+      "native": {}
+    },
+    {
+      "_id": "documents.detailed",
+      "type": "folder",
+      "common": {
+        "name": "Detailedstructure"
+      },
+      "native": {}
+    },
+    {
       "_id": "document_types",
       "type": "channel",
       "common": {
@@ -167,10 +183,42 @@
       "native": {}
     },
     {
+      "_id": "document_types.basic",
+      "type": "folder",
+      "common": {
+        "name": "Basicstructure"
+      },
+      "native": {}
+    },
+    {
+      "_id": "document_types.detailed",
+      "type": "folder",
+      "common": {
+        "name": "Detailedstructure"
+      },
+      "native": {}
+    },
+    {
       "_id": "tags",
       "type": "channel",
       "common": {
         "name": "tags"
+      },
+      "native": {}
+    },
+    {
+      "_id": "tags.basic",
+      "type": "folder",
+      "common": {
+        "name": "Basicstructure"
+      },
+      "native": {}
+    },
+    {
+      "_id": "tags.detailed",
+      "type": "folder",
+      "common": {
+        "name": "Detailedstructure"
       },
       "native": {}
     },

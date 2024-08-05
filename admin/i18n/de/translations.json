@@ -26,5 +26,6 @@
     "documentTypesLoglevelTooltip": "Aktivieren Sie das Kontrollkästchen zum Auslesen der Dokumenttypen",
     "without": "ohne",
     "Basic": "Basisparameter",
-    "Detailed": "Ausführlich"
+    "Detailed": "Ausführlich",
+    "All": "Alles"
 }
