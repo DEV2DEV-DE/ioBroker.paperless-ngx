@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "news": {
+      "0.0.7": {
+        "en": "change structure for indexing documents / tags etc.",
+        "de": "änderung der struktur für die indexierung von dokumenten / tags usw.",
+        "ru": "изменение структуры для индексации документов / тегов и т.д.",
+        "pt": "mudar a estrutura para indexar documentos / tags etc.",
+        "nl": "wijzigen structuur voor het indexeren van documenten / tags etc.",
+        "fr": "modifier la structure pour l'indexation des documents / tags etc.",
+        "it": "modificare la struttura per indicizzare documenti / tag, ecc.",
+        "es": "cambio de estructura para indexar documentos / etiquetas, etc.",
+        "pl": "zmiana struktury indeksowania dokumentów / tagów itp.",
+        "uk": "зміна структури для індексування документів / тегів тощо.",
+        "zh-cn": "更改索引文档/标签等的结构."
+      },
       "0.0.6": {
         "en": "new structure for results. number assigned, because foreign named dokuments are maby not allowed",
         "de": "neue struktur für ergebnisse. anzahl zugewiesen, weil ausländische benannte dokumente maby nicht erlaubt",
