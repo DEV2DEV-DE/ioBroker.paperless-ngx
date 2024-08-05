@@ -27,5 +27,7 @@
 	"without": "without",
 	"Basic": "Basic",
 	"Detailed": "Detailed",
-	"All": "All"
+	"All": "All",
+	"usersLoglevel": "users",
+	"usersLoglevelTooltip": "select checkbox for readout the users"
 }

@@ -27,5 +27,7 @@
     "without": "bez",
     "Basic": "Podstawowy",
     "Detailed": "Szczegółowe",
-    "All": "Wszystko"
+    "All": "Wszystko",
+    "usersLoglevel": "użytkownicy",
+    "usersLoglevelTooltip": "zaznacz pole wyboru do odczytu użytkowników"
 }

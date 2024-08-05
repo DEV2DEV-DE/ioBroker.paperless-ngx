@@ -27,5 +27,7 @@
     "without": "sin",
     "Basic": "Básico",
     "Detailed": "Detallado",
-    "All": "Todo"
+    "All": "Todo",
+    "usersLoglevel": "usuarios",
+    "usersLoglevelTooltip": "seleccione la casilla de verificación para leer los usuarios"
 }

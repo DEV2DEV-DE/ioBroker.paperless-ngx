@@ -27,5 +27,7 @@
     "without": "ohne",
     "Basic": "Basisparameter",
     "Detailed": "Ausführlich",
-    "All": "Alles"
+    "All": "Alles",
+    "usersLoglevel": "Benutzer",
+    "usersLoglevelTooltip": "Aktivieren Sie die checkbox zum Auslesen der Benutzer"
 }

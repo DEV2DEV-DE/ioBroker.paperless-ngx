@@ -122,6 +122,19 @@
 					],
 					"default": "Detailed",
 					"sm":2
+				},
+				"usersLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "usersLoglevel",
+					"tooltip": "usersLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "Basic",
+					"sm":2
 				}
 			}
 		}

@@ -27,5 +27,7 @@
     "without": "sem",
     "Basic": "Básico",
     "Detailed": "Detalhado",
-    "All": "Todos"
+    "All": "Todos",
+    "usersLoglevel": "Usuários",
+    "usersLoglevelTooltip": "marque a caixa de seleção para ler os usuários"
 }

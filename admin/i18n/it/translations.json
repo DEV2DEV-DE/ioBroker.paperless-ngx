@@ -27,5 +27,7 @@
     "without": "senza",
     "Basic": "Di base",
     "Detailed": "Dettagliato",
-    "All": "Tutto"
+    "All": "Tutto",
+    "usersLoglevel": "utenti",
+    "usersLoglevelTooltip": "selezionare la casella di controllo per leggere gli utenti"
 }

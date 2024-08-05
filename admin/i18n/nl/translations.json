@@ -27,5 +27,7 @@
     "without": "zonder",
     "Basic": "Basis",
     "Detailed": "Gedetailleerd",
-    "All": "Alle"
+    "All": "Alle",
+    "usersLoglevel": "gebruikers",
+    "usersLoglevelTooltip": "selecteer het selectievakje om de gebruikers uit te lezen"
 }

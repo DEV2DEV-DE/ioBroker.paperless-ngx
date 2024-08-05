@@ -159,7 +159,8 @@
     "refreshCycle": "* * * * *",
     "documentsLoglevel": 0,
     "documentTypesLoglevel": 0,
-    "tagsLoglevel": 2
+    "tagsLoglevel": 2,
+    "usersLoglevel": 1
   },
   "objects": [],
   "instanceObjects": [
@@ -172,42 +173,10 @@
       "native": {}
     },
     {
-      "_id": "documents.basic",
-      "type": "folder",
-      "common": {
-        "name": "Basicstructure"
-      },
-      "native": {}
-    },
-    {
-      "_id": "documents.detailed",
-      "type": "folder",
-      "common": {
-        "name": "Detailedstructure"
-      },
-      "native": {}
-    },
-    {
       "_id": "document_types",
       "type": "channel",
       "common": {
         "name": "document types"
-      },
-      "native": {}
-    },
-    {
-      "_id": "document_types.basic",
-      "type": "folder",
-      "common": {
-        "name": "Basicstructure"
-      },
-      "native": {}
-    },
-    {
-      "_id": "document_types.detailed",
-      "type": "folder",
-      "common": {
-        "name": "Detailedstructure"
       },
       "native": {}
     },
@@ -220,22 +189,6 @@
       "native": {}
     },
     {
-      "_id": "tags.basic",
-      "type": "folder",
-      "common": {
-        "name": "Basicstructure"
-      },
-      "native": {}
-    },
-    {
-      "_id": "tags.detailed",
-      "type": "folder",
-      "common": {
-        "name": "Detailedstructure"
-      },
-      "native": {}
-    },
-    {
       "_id": "search",
       "type": "channel",
       "common": {
@@ -244,10 +197,10 @@
       "native": {}
     },
     {
-      "_id": "search.results",
-      "type": "folder",
+      "_id": "users",
+      "type": "channel",
       "common": {
-        "name": "result of search query"
+        "name": "users"
       },
       "native": {}
     },

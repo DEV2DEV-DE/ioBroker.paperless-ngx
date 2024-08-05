@@ -18,6 +18,9 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (BenAhrdt) change structure for indexing documents / tags etc.
+
 ### 0.0.6 (2024-08-05)
 * (BenAhrdt) new structure for results. number assigned, because foreign named dokuments are maby not allowed
 
