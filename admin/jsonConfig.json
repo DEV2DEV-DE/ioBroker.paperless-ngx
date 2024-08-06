@@ -84,6 +84,19 @@
                     "sm":2,
                     "default": "* * * * *"
 				},
+				"tagsLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "tagsLoglevel",
+					"tooltip": "tagsLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "Detailed",
+					"sm":2
+				},
 				"documentsLoglevel":{
 					"newLine": true,
 					"type": "select",
@@ -108,19 +121,6 @@
 						{"label":"Detailed","value":2}
 					],
 					"default": "without",
-					"sm":2
-				},
-				"tagsLoglevel":{
-					"newLine": true,
-					"type": "select",
-					"label": "tagsLoglevel",
-					"tooltip": "tagsLoglevelTooltip",
-					"options": [
-						{"label":"without","value":0},
-						{"label":"Basic","value":1},
-						{"label":"Detailed","value":2}
-					],
-					"default": "Detailed",
 					"sm":2
 				},
 				"usersLoglevel":{

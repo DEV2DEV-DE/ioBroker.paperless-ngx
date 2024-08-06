@@ -18,6 +18,9 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (BenAhrdt) implements new icons and additionObjectinformations
+
 ### 0.0.7 (2024-08-05)
 * (BenAhrdt) change structure for indexing documents / tags etc.
 

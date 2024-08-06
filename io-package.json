@@ -170,50 +170,19 @@
     "username": "",
     "password": "",
     "refreshCycle": "* * * * *",
+    "tagsLoglevel": 2,
     "documentsLoglevel": 0,
     "documentTypesLoglevel": 0,
-    "tagsLoglevel": 2,
     "usersLoglevel": 1
   },
   "objects": [],
   "instanceObjects": [
     {
-      "_id": "documents",
-      "type": "channel",
-      "common": {
-        "name": "documents"
-      },
-      "native": {}
-    },
-    {
-      "_id": "document_types",
-      "type": "channel",
-      "common": {
-        "name": "document types"
-      },
-      "native": {}
-    },
-    {
-      "_id": "tags",
-      "type": "channel",
-      "common": {
-        "name": "tags"
-      },
-      "native": {}
-    },
-    {
       "_id": "search",
       "type": "channel",
       "common": {
-        "name": "search"
-      },
-      "native": {}
-    },
-    {
-      "_id": "users",
-      "type": "channel",
-      "common": {
-        "name": "users"
+        "name": "search",
+        "icon": "img/search.png"
       },
       "native": {}
     },
