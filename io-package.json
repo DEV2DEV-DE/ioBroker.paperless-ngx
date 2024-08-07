@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "news": {
+      "0.0.10": {
+        "en": "Added common.name to results",
+        "de": "Häufig hinzugefügt. Namen zu den Ergebnissen",
+        "ru": "Добавлено общее. имя к результатам",
+        "pt": "Adicionado comum. nome para resultados",
+        "nl": "Gewoon toegevoegd. naam van de resultaten",
+        "fr": "Ajouté commun. nom aux résultats",
+        "it": "Aggiunto comune. nome ai risultati",
+        "es": "Añadido común. nombre a resultados",
+        "pl": "Dodano wspólne. nazwa do wyników",
+        "uk": "Додано загальний. ім'я на результати",
+        "zh-cn": "增加常见. 名称到结果"
+      },
       "0.0.9": {
         "en": "implements search in documents (additional to global search)",
         "de": "die suche in dokumenten implementiert (zusätzlich zur globalen suche)",
@@ -80,19 +93,6 @@
         "pl": "poziom odczytu dla danychonnection",
         "uk": "рівень зчитування даних",
         "zh-cn": "数据连接读出级别"
-      },
-      "0.0.3": {
-        "en": "bugfixes for set states wrigth",
-        "de": "bugfixes für eingestellte zustände wrigth",
-        "ru": "bugfixes for set states wrigth",
-        "pt": "correções de bugs para estados definidos",
-        "nl": "bugfixes voor ingestelde status wrigth",
-        "fr": "bugfixes pour les états définis wrigth",
-        "it": "bugfixs for set stati wrigth",
-        "es": "bugfixes for set states wrigth",
-        "pl": "bugfixes for set states wrigth",
-        "uk": "виправлення помилок для встановлених станів",
-        "zh-cn": "设定状态的错误修正wrigth"
       }
     },
     "title": "paperless-ngx",

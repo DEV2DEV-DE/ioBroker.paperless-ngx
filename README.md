@@ -18,7 +18,7 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.0.10 (2024-08-07)
 * (BenAhrdt) Added common.name to results
 
 ### 0.0.9 (2024-08-07)
