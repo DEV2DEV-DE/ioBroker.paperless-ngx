@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "news": {
+      "0.0.9": {
+        "en": "implements search in documents (additional to global search)",
+        "de": "die suche in dokumenten implementiert (zusätzlich zur globalen suche)",
+        "ru": "реализует поиск в документах (дополнительно к глобальному поиску)",
+        "pt": "implementa pesquisa em documentos (adicional à pesquisa global)",
+        "nl": "implementeert zoeken in documenten (naast globale zoekopdracht)",
+        "fr": "implémente la recherche dans les documents (en complément à la recherche mondiale)",
+        "it": "implementa la ricerca nei documenti (addizionale alla ricerca globale)",
+        "es": "implements search in documents (additional to global search)",
+        "pl": "implementuje wyszukiwanie w dokumentach (dodatkowe do wyszukiwania globalnego)",
+        "uk": "здійснює пошук документів (додатково до глобального пошуку)",
+        "zh-cn": "执行文档中的搜索( 全局搜索之外的额外搜索)"
+      },
       "0.0.8": {
         "en": "implements new icons and additionObjectinformations",
         "de": "neue Icons und Ergänzung implementiert Objektinformationen",
@@ -80,19 +93,6 @@
         "pl": "bugfixes for set states wrigth",
         "uk": "виправлення помилок для встановлених станів",
         "zh-cn": "设定状态的错误修正wrigth"
-      },
-      "0.0.2": {
-        "en": "initial release",
-        "de": "erstausstrahlung",
-        "ru": "первоначальный выпуск",
-        "pt": "lançamento inicial",
-        "nl": "eerste release",
-        "fr": "libération initiale",
-        "it": "rilascio iniziale",
-        "es": "liberación inicial",
-        "pl": "początkowe zwolnienie",
-        "uk": "початковий реліз",
-        "zh-cn": "初步释放"
       }
     },
     "title": "paperless-ngx",
