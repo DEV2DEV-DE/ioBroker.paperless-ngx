@@ -187,10 +187,37 @@
       "native": {}
     },
     {
-      "_id": "search.query",
+      "_id": "search.global",
+      "type": "folder",
+      "common": {
+        "name": "global search"
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.global.query",
       "type": "state",
       "common": {
-        "name": "query of search",
+        "name": "query of global search",
+        "type": "string",
+        "role": "text",
+        "default": ""
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.documents",
+      "type": "folder",
+      "common": {
+        "name": "document search"
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.documents.query",
+      "type": "state",
+      "common": {
+        "name": "query of document search",
         "type": "string",
         "role": "text",
         "default": ""

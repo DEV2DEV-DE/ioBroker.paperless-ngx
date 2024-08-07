@@ -39,17 +39,16 @@ class PaperlessNgx extends utils.Adapter {
 	 * Is called when databases are connected and adapter received configuration.
 	 */
 	async onReady() {
-		// Initialize your adapter here
-		this.paperlessCommunication = new paperlesscommunicationClass(this);
-		await this.paperlessCommunication.readActualData();
+		// Subscribe internal writefunctions
+		this.subscribeStatesAsync("search.*.query");
+
 		// Reset the connection indicator during startup
 		this.setState("info.connection", true, true);
 
+		this.paperlessCommunication = new paperlesscommunicationClass(this);
+		await this.paperlessCommunication.readActualData();
+
 		this.cronJobs[this.cronJobIds.refreshCycle] = schedule.scheduleJob(this.config.refreshCycle,this.readActualDataCyclic.bind(this));
-
-		// Subscribe internal writefunctions
-		this.subscribeStatesAsync("search.query");
-
 	}
 
 	async readActualDataCyclic(){
@@ -111,7 +110,12 @@ class PaperlessNgx extends utils.Adapter {
 			// this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
 			// just handle statechanges without ack
 			if(!state.ack){
-				await this.paperlessCommunication?.sendSearchQuery(state.val);
+				if(id.indexOf("global") !== -1){
+					await this.paperlessCommunication?.sendGlobalSearchQuery(state.val);
+				}
+				else{
+					await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val);
+				}
 				this.setState(id,state.val,true);
 			}
 		} else {
