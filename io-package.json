@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "news": {
+      "0.0.11": {
+        "en": "remove the \"\" from links",
+        "de": "entfernen sie das \"\" von links",
+        "ru": "удалить \"\" из ссылок",
+        "pt": "remover o \"\" de links",
+        "nl": "\"\" uit links verwijderen",
+        "fr": "supprimer le \"\" des liens",
+        "it": "rimuovere il \"\" dai link",
+        "es": "eliminar el \"\" de los enlaces",
+        "pl": "usunąć \"\" z linków",
+        "uk": "видалити \"\" з посилань",
+        "zh-cn": "从链接中删除“ ”"
+      },
       "0.0.10": {
         "en": "Added common.name to results",
         "de": "Häufig hinzugefügt. Namen zu den Ergebnissen",
@@ -80,19 +93,6 @@
         "pl": "zaimplementowana funkcja pierwszego zapytania",
         "uk": "перша функція запиту",
         "zh-cn": "第一个查询功能已执行"
-      },
-      "0.0.4": {
-        "en": "readoutlevel for dataconnection",
-        "de": "readoutlevel für die datenverbindung",
-        "ru": "уровень чтения для подключения данных",
-        "pt": "nível de leitura para conexão de dados",
-        "nl": "readoutlevel voor dataconnectie",
-        "fr": "niveau de lecture pour la connexion des données",
-        "it": "livello di lettura per la connessione dei dati",
-        "es": "nivel de lectura para la conexión de datos",
-        "pl": "poziom odczytu dla danychonnection",
-        "uk": "рівень зчитування даних",
-        "zh-cn": "数据连接读出级别"
       }
     },
     "title": "paperless-ngx",
