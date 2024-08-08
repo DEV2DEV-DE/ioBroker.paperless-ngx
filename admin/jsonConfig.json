@@ -82,7 +82,7 @@
                     "label": "refreshCycle",
                     "tooltip": "refreshCycleTooltip",
                     "sm":2,
-                    "default": "* * * * *"
+                    "default": "*/15 * * * *"
 				},
 				"tagsLoglevel":{
 					"newLine": true,

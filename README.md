@@ -18,6 +18,9 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (BenAhrdt) added current step
+
 ### 0.0.12 (2024-08-08)
 * (BenAhrdt) Implekents "all" to some folders
 

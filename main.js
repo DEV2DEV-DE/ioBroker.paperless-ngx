@@ -33,6 +33,8 @@ class PaperlessNgx extends utils.Adapter {
 			refreshCycle: "refreshCycle"
 		};
 		this.isUnloaded = false;
+
+		this.currentStep = "info.currentStep";
 	}
 
 	/**
@@ -41,18 +43,21 @@ class PaperlessNgx extends utils.Adapter {
 	async onReady() {
 		// Subscribe internal writefunctions
 		this.subscribeStatesAsync("search.*.query");
+		this.subscribeStatesAsync("control.requestTrigger");
 
 		// Reset the connection indicator during startup
 		this.setState("info.connection", true, true);
 
 		this.paperlessCommunication = new paperlesscommunicationClass(this);
 		await this.paperlessCommunication.readActualData();
+		await this.setIdle();
 
 		this.cronJobs[this.cronJobIds.refreshCycle] = schedule.scheduleJob(this.config.refreshCycle,this.readActualDataCyclic.bind(this));
 	}
 
 	async readActualDataCyclic(){
 		await this.paperlessCommunication?.readActualData();
+		await this.setIdle();
 	}
 
 	clearAllSchedules(){
@@ -110,17 +115,45 @@ class PaperlessNgx extends utils.Adapter {
 			// this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
 			// just handle statechanges without ack
 			if(!state.ack){
-				if(id.indexOf("global") !== -1){
-					await this.paperlessCommunication?.sendGlobalSearchQuery(state.val);
+				// Request the actuel Data
+				if(id.indexOf("control.requestTrigger") !== -1){
+					await this.paperlessCommunication?.readActualData();
+					this.setState(id,false,true);
+					await this.setState(this.currentStep,"idle",true);
 				}
+				// send search query
 				else{
-					await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val);
+					if(id.indexOf("global") !== -1){
+						await this.paperlessCommunication?.sendGlobalSearchQuery(state.val);
+						await this.setIdle();
+					}
+					else{
+						await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val);
+						await this.setIdle();
+					}
+					await this.setState(id,state.val,true);
 				}
-				this.setState(id,state.val,true);
 			}
 		} else {
 			// The state was deleted
 			// this.log.info(`state ${id} deleted`);
+		}
+	}
+
+	inProgress(){
+		let inProgress = false;
+		for(const progress in this.paperlessCommunication?.inProgress){
+			if(this.paperlessCommunication?.inProgress[progress]){
+				inProgress = true;
+				break;
+			}
+		}
+		return inProgress;
+	}
+
+	async setIdle(){
+		if(!this.inProgress()){
+			await this.setState(this.currentStep,"idle",true);
 		}
 	}
 
