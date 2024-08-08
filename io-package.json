@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "news": {
+      "0.0.13": {
+        "en": "added current step",
+        "de": "strom schritt",
+        "ru": "дополнительный текущий шаг",
+        "pt": "passo atual adicionado",
+        "nl": "huidige stap toevoegen",
+        "fr": "ajout de l'étape actuelle",
+        "it": "passo corrente aggiunto",
+        "es": "paso actual",
+        "pl": "dodany bieżący krok",
+        "uk": "додано поточний крок",
+        "zh-cn": "添加当前步骤"
+      },
       "0.0.12": {
         "en": "Implekents \"all\" to some folders",
         "de": "Implekents \"all\" zu einigen Ordnern",
@@ -80,19 +93,6 @@
         "pl": "zmiana struktury indeksowania dokumentów / tagów itp.",
         "uk": "зміна структури для індексування документів / тегів тощо.",
         "zh-cn": "更改索引文档/标签等的结构."
-      },
-      "0.0.6": {
-        "en": "new structure for results. number assigned, because foreign named dokuments are maby not allowed",
-        "de": "neue struktur für ergebnisse. anzahl zugewiesen, weil ausländische benannte dokumente maby nicht erlaubt",
-        "ru": "новая структура для результатов. число назначено, потому что иностранные названные документы маби не допускаются",
-        "pt": "nova estrutura para resultados. número atribuído, porque estrangeiros nomeados dokuments são maby não permitido",
-        "nl": "nieuwe structuur voor resultaten. nummer toegewezen, omdat buitenlandse genaamde dokuments zijn maby niet toegestaan",
-        "fr": "nouvelle structure pour les résultats. numéro attribué, parce que les dokuments nommés étrangers ne sont pas autorisés",
-        "it": "nuova struttura per risultati. numero assegnato, perché i dokuments di nome straniero non sono permessi",
-        "es": "nueva estructura para resultados. número asignado, porque los dokumentos extranjeros nombrados no están permitidos",
-        "pl": "nowa struktura wyników. numer przypisany, ponieważ zagraniczny nazwany dokument są maby niedozwolone",
-        "uk": "нова структура для результатів. кількість призначених, тому що іноземні іменовані купюри не допускаються",
-        "zh-cn": "新的成果结构。 指定数字, 因为外国命名的 dokuments 是不允许的 maby"
       }
     },
     "title": "paperless-ngx",
