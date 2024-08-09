@@ -123,10 +123,12 @@ class PaperlessNgx extends utils.Adapter {
 				}
 				// send search query
 				else{
+					// Query for global search
 					if(id.indexOf("global") !== -1){
 						await this.paperlessCommunication?.sendGlobalSearchQuery(state.val);
 						await this.setIdle();
 					}
+					// Query for documents search
 					else{
 						await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val);
 						await this.setIdle();
