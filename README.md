@@ -18,6 +18,9 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (BenAhrdt) add keyword ioBroker to package.json
+
 ### 0.0.13 (2024-08-08)
 * (BenAhrdt) added current step
 
