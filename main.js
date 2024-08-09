@@ -115,7 +115,7 @@ class PaperlessNgx extends utils.Adapter {
 			// this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
 			// just handle statechanges without ack
 			if(!state.ack){
-				// Request the actuel Data
+				// Request the actual Data
 				if(id.indexOf("control.requestTrigger") !== -1){
 					await this.paperlessCommunication?.readActualData();
 					this.setState(id,false,true);
