@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.14",
+    "version": "0.0.15",
     "news": {
+      "0.0.15": {
+        "en": "changes for check and service bot",
+        "de": "änderungen für check- und service-bot",
+        "ru": "изменения для проверки и обслуживания бота",
+        "pt": "alterações para verificação e serviço bot",
+        "nl": "wijzigingen voor controle en service bot",
+        "fr": "modifications pour vérifier et service bot",
+        "it": "modifiche per check e service bot",
+        "es": "cambios para cheque y servicio bot",
+        "pl": "zmiany dotyczące bota kontrolnego i serwisowego",
+        "uk": "зміни для перевірки та сервісу",
+        "zh-cn": "检查和服务机器人的更改"
+      },
       "0.0.14": {
         "en": "add keyword ioBroker to package.json",
         "de": "keyword ioBroker zum Paket hinzufügen. Json",
@@ -80,19 +93,6 @@
         "pl": "implementuje wyszukiwanie w dokumentach (dodatkowe do wyszukiwania globalnego)",
         "uk": "здійснює пошук документів (додатково до глобального пошуку)",
         "zh-cn": "执行文档中的搜索( 全局搜索之外的额外搜索)"
-      },
-      "0.0.8": {
-        "en": "implements new icons and additionObjectinformations",
-        "de": "neue Icons und Ergänzung implementiert Objektinformationen",
-        "ru": "реализует новые иконки и дополнения Объективная информация",
-        "pt": "implementa novos ícones e adição InformaÃ§Ãμes de objetos",
-        "nl": "implementeert nieuwe pictogrammen en toevoeging Objectinformatie",
-        "fr": "implémente de nouvelles icônes et ajout Informations sur les objets",
-        "it": "implementa nuove icone e aggiunte Informazioni sugli oggetti",
-        "es": "implementa nuevos iconos y adición Objectinformations",
-        "pl": "implementuje nowe ikony i dodawanie Obiekty",
-        "uk": "впроваджує нові іконки і доповнення Об'єкти",
-        "zh-cn": "执行新图标和添加 对象信息"
       }
     },
     "titleLang": {
