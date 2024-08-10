@@ -95,7 +95,6 @@
         "zh-cn": "执行新图标和添加 对象信息"
       }
     },
-    "title": "paperless-ngx",
     "titleLang": {
       "en": "paperless-ngx",
       "de": "paperless-ngx",
@@ -151,7 +150,7 @@
     },
     "dependencies": [
       {
-        "js-controller": ">=3.3.22"
+        "js-controller": ">=5.0.19"
       }
     ],
     "globalDependencies": [
