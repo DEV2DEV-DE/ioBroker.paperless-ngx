@@ -18,6 +18,9 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* Change some things in API fpr additional functions in search document functions
+
 ### 0.0.15 (2024-08-10)
 * (BenAhrdt) changes for check and service bot
 
