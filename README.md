@@ -19,7 +19,7 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
-* Change some things in API fpr additional functions in search document functions
+* First implementation of searching in documents with specific tags
 
 ### 0.0.15 (2024-08-10)
 * (BenAhrdt) changes for check and service bot

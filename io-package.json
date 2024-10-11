@@ -247,6 +247,30 @@
       "native": {}
     },
     {
+      "_id": "search.documents.queryTags",
+      "type": "state",
+      "common": {
+        "name": "query of document search",
+        "type": "array",
+        "role": "value",
+        "icon": "img/query.png",
+        "default": []
+      },
+      "native": {}
+    },
+    {
+      "_id": "search.documents.queryAllTags",
+      "type": "state",
+      "common": {
+        "name": "Logic for search: true => And, false => or",
+        "type": "boolean",
+        "role": "switch",
+        "icon": "img/query.png",
+        "default": true
+      },
+      "native": {}
+    },
+    {
       "_id": "info",
       "type": "channel",
       "common": {

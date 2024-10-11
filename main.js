@@ -42,7 +42,7 @@ class PaperlessNgx extends utils.Adapter {
 	 */
 	async onReady() {
 		// Subscribe internal writefunctions
-		this.subscribeStatesAsync("search.*.query");
+		this.subscribeStatesAsync("search.*.query*");
 		this.subscribeStatesAsync("control.requestTrigger");
 
 		// Reset the connection indicator during startup
@@ -129,9 +129,25 @@ class PaperlessNgx extends utils.Adapter {
 						await this.setIdle();
 					}
 					// Query for documents search
-					else{
-						await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val);
-						await this.setIdle();
+					else if(id.indexOf("documents") !== -1){
+						if(id.endsWith("query")){
+							const tags = await this.getStateAsync(`${this.namespace}.search.documents.queryTags`);
+							const allTags = await this.getStateAsync(`${this.namespace}.search.documents.queryAllTags`);
+							await this.paperlessCommunication?.sendDocumentsSearchQuery(state.val,tags?.val,allTags?.val);
+							await this.setIdle();
+						}
+						if(id.endsWith("queryTags")){
+							const query = await this.getStateAsync(`${this.namespace}.search.documents.query`);
+							const allTags = await this.getStateAsync(`${this.namespace}.search.documents.queryAllTags`);
+							await this.paperlessCommunication?.sendDocumentsSearchQuery(query?.val,state.val,allTags?.val);
+							await this.setIdle();
+						}
+						if(id.endsWith("queryAllTags")){
+							const query = await this.getStateAsync(`${this.namespace}.search.documents.query`);
+							const tags = await this.getStateAsync(`${this.namespace}.search.documents.queryTags`);
+							await this.paperlessCommunication?.sendDocumentsSearchQuery(query?.val,tags?.val,state.val);
+							await this.setIdle();
+						}
 					}
 					await this.setState(id,state.val,true);
 				}
