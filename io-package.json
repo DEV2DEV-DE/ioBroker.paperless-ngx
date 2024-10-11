@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.0.15",
+    "version": "0.1.0",
     "news": {
+      "0.1.0": {
+        "en": "First implementation of searching in documents with specific tags",
+        "de": "Erste Implementierung der Suche in Dokumenten mit bestimmten Tags",
+        "ru": "Первая реализация поиска в документах с конкретными тегами",
+        "pt": "Primeira implementação de pesquisa em documentos com tags específicas",
+        "nl": "Eerste implementatie van zoeken in documenten met specifieke tags",
+        "fr": "Première mise en œuvre de la recherche dans des documents avec des balises spécifiques",
+        "it": "Prima implementazione della ricerca in documenti con tag specifici",
+        "es": "Primera implementación de búsqueda en documentos con etiquetas específicas",
+        "pl": "Pierwsza implementacja wyszukiwania w dokumentach z określonymi tagami",
+        "uk": "Перша реалізація пошуку документів з певними тегами",
+        "zh-cn": "首次在带有特定标签的文档中搜索"
+      },
       "0.0.15": {
         "en": "changes for check and service bot",
         "de": "änderungen für check- und service-bot",
@@ -80,19 +93,6 @@
         "pl": "Dodano wspólne. nazwa do wyników",
         "uk": "Додано загальний. ім'я на результати",
         "zh-cn": "增加常见. 名称到结果"
-      },
-      "0.0.9": {
-        "en": "implements search in documents (additional to global search)",
-        "de": "die suche in dokumenten implementiert (zusätzlich zur globalen suche)",
-        "ru": "реализует поиск в документах (дополнительно к глобальному поиску)",
-        "pt": "implementa pesquisa em documentos (adicional à pesquisa global)",
-        "nl": "implementeert zoeken in documenten (naast globale zoekopdracht)",
-        "fr": "implémente la recherche dans les documents (en complément à la recherche mondiale)",
-        "it": "implementa la ricerca nei documenti (addizionale alla ricerca globale)",
-        "es": "implements search in documents (additional to global search)",
-        "pl": "implementuje wyszukiwanie w dokumentach (dodatkowe do wyszukiwania globalnego)",
-        "uk": "здійснює пошук документів (додатково до глобального пошуку)",
-        "zh-cn": "执行文档中的搜索( 全局搜索之外的额外搜索)"
       }
     },
     "titleLang": {

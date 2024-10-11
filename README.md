@@ -18,7 +18,7 @@ paperless-ngx API to get information of running instances from paperless-ngx
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.1.0 (2024-10-11)
 * First implementation of searching in documents with specific tags
 
 ### 0.0.15 (2024-08-10)
