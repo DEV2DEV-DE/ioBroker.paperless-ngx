@@ -18,7 +18,7 @@
     "Datainformation": "Legen Sie die Dateneinstellungen fest, die im Detail ausgelesen werden",
     "refreshCycle": "Aktualisierungszyklus",
     "refreshCycleTooltip": "Geben Sie den gewünschten CronJob ein, der die Daten aus Ihrer Instanz ausliest",
-    "documentsLoglevel": "Dokuemnte",
+    "documentsLoglevel": "Dokumente",
     "documentsLoglevelTooltip": "Aktivieren Sie das Kontrollkästchen zum Auslesen der Dokumente",
     "tagsLoglevel": "Tags",
     "tagsLoglevelTooltip": "Aktivieren Sie das Kontrollkästchen zum Auslesen der Tags",
@@ -29,5 +29,5 @@
     "Detailed": "Ausführlich",
     "All": "Alles",
     "usersLoglevel": "Benutzer",
-    "usersLoglevelTooltip": "Aktivieren Sie die checkbox zum Auslesen der Benutzer"
+    "usersLoglevelTooltip": "Aktivieren Sie das Kontrollkästchen zum Auslesen der Benutzer"
 }
