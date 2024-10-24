@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "paperless-ngx",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "news": {
+      "0.1.1": {
+        "en": "implents correspondents",
+        "de": "implents korrespondenten",
+        "ru": "корреспонденты",
+        "pt": "correspondentes implentes",
+        "nl": "uitvoeringscorrespondenten",
+        "fr": "correspondants chargés",
+        "it": "corrispettivi",
+        "es": "corresponsales implents",
+        "pl": "implikacje korespondentów",
+        "uk": "імпленти кореспонденти",
+        "zh-cn": "无法通讯员"
+      },
       "0.1.0": {
         "en": "First implementation of searching in documents with specific tags",
         "de": "Erste Implementierung der Suche in Dokumenten mit bestimmten Tags",
@@ -80,19 +93,6 @@
         "pl": "usunąć \"\" z linków",
         "uk": "видалити \"\" з посилань",
         "zh-cn": "从链接中删除“ ”"
-      },
-      "0.0.10": {
-        "en": "Added common.name to results",
-        "de": "Häufig hinzugefügt. Namen zu den Ergebnissen",
-        "ru": "Добавлено общее. имя к результатам",
-        "pt": "Adicionado comum. nome para resultados",
-        "nl": "Gewoon toegevoegd. naam van de resultaten",
-        "fr": "Ajouté commun. nom aux résultats",
-        "it": "Aggiunto comune. nome ai risultati",
-        "es": "Añadido común. nombre a resultados",
-        "pl": "Dodano wspólne. nazwa do wyników",
-        "uk": "Додано загальний. ім'я на результати",
-        "zh-cn": "增加常见. 名称到结果"
       }
     },
     "titleLang": {
