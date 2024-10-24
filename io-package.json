@@ -172,7 +172,8 @@
     "tagsLoglevel": 2,
     "documentsLoglevel": 0,
     "documentTypesLoglevel": 0,
-    "usersLoglevel": 1
+    "usersLoglevel": 1,
+    "correspondentsLoglevel": 1
   },
   "objects": [],
   "instanceObjects": [
