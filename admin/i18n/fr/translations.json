@@ -1,6 +1,6 @@
 {
     "paperless-ngx adapter settings": "Paramètres de l'adaptateur pour paperless-ngx",
-    "mainSettings": "Réglages principaux",
+    "mainSettings": "Paramètres principaux",
     "ServersettingsHeader": "Paramètres du serveur",
     "Serverinformation": "Définissez les principaux paramètres de communication sur votre serveur",
     "ipUrl": "URL ou IP du serveur",
@@ -20,7 +20,7 @@
     "refreshCycleTooltip": "entrez le cronJob souhaité, qui lit les données de votre instance",
     "documentsLoglevel": "documents",
     "documentsLoglevelTooltip": "cochez la case pour lire les documents",
-    "tagsLoglevel": "Mots clés",
+    "tagsLoglevel": "balises",
     "tagsLoglevelTooltip": "cochez la case pour lire les balises",
     "documentTypesLoglevel": "types de documents",
     "documentTypesLoglevelTooltip": "cochez la case pour lire les types de documents",
@@ -29,5 +29,7 @@
     "Detailed": "Détaillé",
     "All": "Tous",
     "usersLoglevel": "utilisateurs",
-    "usersLoglevelTooltip": "cochez la case pour lire les utilisateurs"
+    "usersLoglevelTooltip": "cochez la case pour lire les utilisateurs",
+    "correspondentsLoglevel": "correspondants",
+    "correspondentsLoglevelTooltip": "cochez la case pour lire les correspondants"
 }

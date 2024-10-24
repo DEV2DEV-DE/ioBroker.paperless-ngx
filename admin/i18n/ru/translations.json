@@ -29,5 +29,7 @@
     "Detailed": "Подробный",
     "All": "Все",
     "usersLoglevel": "пользователи",
-    "usersLoglevelTooltip": "установите флажок для считывания пользователей"
+    "usersLoglevelTooltip": "установите флажок для считывания пользователей",
+    "correspondentsLoglevel": "корреспонденты",
+    "correspondentsLoglevelTooltip": "установите флажок для считывания собеседников"
 }

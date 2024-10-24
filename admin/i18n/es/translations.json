@@ -1,6 +1,6 @@
 {
     "paperless-ngx adapter settings": "Configuración del adaptador para paperless-ngx",
-    "mainSettings": "Ajustes principales",
+    "mainSettings": "Configuración principal",
     "ServersettingsHeader": "Configuración del servidor",
     "Serverinformation": "Establezca la configuración principal de comunicación para su servidor",
     "ipUrl": "url o ip del servidor",
@@ -29,5 +29,7 @@
     "Detailed": "Detallado",
     "All": "Todo",
     "usersLoglevel": "usuarios",
-    "usersLoglevelTooltip": "seleccione la casilla de verificación para leer los usuarios"
+    "usersLoglevelTooltip": "seleccione la casilla de verificación para leer los usuarios",
+    "correspondentsLoglevel": "corresponsales",
+    "correspondentsLoglevelTooltip": "seleccione la casilla de verificación para leer los corresponsales"
 }

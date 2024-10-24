@@ -20,7 +20,7 @@
     "refreshCycleTooltip": "insira o cronJob desejado, que lê os dados da sua instância",
     "documentsLoglevel": "documentos",
     "documentsLoglevelTooltip": "marque a caixa de seleção para ler os documentos",
-    "tagsLoglevel": "Tag",
+    "tagsLoglevel": "etiquetas",
     "tagsLoglevelTooltip": "marque a caixa de seleção para ler as tags",
     "documentTypesLoglevel": "tipos de documentos",
     "documentTypesLoglevelTooltip": "marque a caixa de seleção para ler os tipos de documento",
@@ -29,5 +29,7 @@
     "Detailed": "Detalhado",
     "All": "Todos",
     "usersLoglevel": "Usuários",
-    "usersLoglevelTooltip": "marque a caixa de seleção para ler os usuários"
+    "usersLoglevelTooltip": "marque a caixa de seleção para ler os usuários",
+    "correspondentsLoglevel": "correspondentes",
+    "correspondentsLoglevelTooltip": "marque a caixa de seleção para ler os correspondentes"
 }

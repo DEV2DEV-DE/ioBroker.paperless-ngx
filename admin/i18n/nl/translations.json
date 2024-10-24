@@ -1,6 +1,6 @@
 {
     "paperless-ngx adapter settings": "Adapterinstellingen voor paperless-ngx",
-    "mainSettings": "Belangrijkste instellingen",
+    "mainSettings": "Hoofdinstellingen",
     "ServersettingsHeader": "Serverinstellingen",
     "Serverinformation": "Stel de belangrijkste communicatie-instellingen in op uw server",
     "ipUrl": "url of ip van de server",
@@ -29,5 +29,7 @@
     "Detailed": "Gedetailleerd",
     "All": "Alle",
     "usersLoglevel": "gebruikers",
-    "usersLoglevelTooltip": "selecteer het selectievakje om de gebruikers uit te lezen"
+    "usersLoglevelTooltip": "selecteer het selectievakje om de gebruikers uit te lezen",
+    "correspondentsLoglevel": "correspondenten",
+    "correspondentsLoglevelTooltip": "selecteer het selectievakje om de correspondenten uit te lezen"
 }

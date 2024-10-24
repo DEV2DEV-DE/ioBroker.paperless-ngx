@@ -1,11 +1,11 @@
 {
     "paperless-ngx adapter settings": "Ustawienia adaptera dla Paperless-ngx",
-    "mainSettings": "Ustawienia główne",
+    "mainSettings": "Główne ustawienia",
     "ServersettingsHeader": "Ustawienia serwera",
-    "Serverinformation": "Skonfiguruj główne ustawienia komunikacji z serwerem",
+    "Serverinformation": "Ustaw główne ustawienia komunikacji z serwerem",
     "ipUrl": "url lub ip serwera",
     "ipUrlTooltip": "wprowadź adres IP lub adres URL, z którym chcesz się połączyć",
-    "port": "Port",
+    "port": "port",
     "portTooltip": "wprowadź port połączenia",
     "AuthenticationHeader": "Ustawienia uwierzytelniania",
     "AuthenticationInformation": "Ustaw uwierzytelnianie dla swojego serwera (jeśli to konieczne)",
@@ -26,8 +26,10 @@
     "documentTypesLoglevelTooltip": "zaznacz pole wyboru, aby odczytać typy dokumentów",
     "without": "bez",
     "Basic": "Podstawowy",
-    "Detailed": "Szczegółowe",
+    "Detailed": "Szczegółowy",
     "All": "Wszystko",
     "usersLoglevel": "użytkownicy",
-    "usersLoglevelTooltip": "zaznacz pole wyboru do odczytu użytkowników"
+    "usersLoglevelTooltip": "zaznacz pole wyboru do odczytu użytkowników",
+    "correspondentsLoglevel": "korespondenci",
+    "correspondentsLoglevelTooltip": "zaznacz pole wyboru, aby odczytać korespondentów"
 }

@@ -29,5 +29,7 @@
     "Detailed": "Ausführlich",
     "All": "Alles",
     "usersLoglevel": "Benutzer",
-    "usersLoglevelTooltip": "Aktivieren Sie die checkbox zum Auslesen der Benutzer"
+    "usersLoglevelTooltip": "Aktivieren Sie die checkbox zum Auslesen der Benutzer",
+    "correspondentsLoglevel": "Korrespondenten",
+    "correspondentsLoglevelTooltip": "Aktivieren Sie das Kontrollkästchen zum Auslesen der Korrespondenten"
 }

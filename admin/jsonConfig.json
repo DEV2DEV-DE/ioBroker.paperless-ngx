@@ -138,6 +138,19 @@
 					],
 					"default": "Basic",
 					"sm":2
+				},
+				"correspondentsLoglevel":{
+					"newLine": true,
+					"type": "select",
+					"label": "correspondentsLoglevel",
+					"tooltip": "correspondentsLoglevelTooltip",
+					"options": [
+						{"label":"without","value":0},
+						{"label":"Basic","value":1},
+						{"label":"Detailed","value":2}
+					],
+					"default": "Basic",
+					"sm":2
 				}
 			}
 		}

@@ -29,5 +29,7 @@
 	"Detailed": "Detailed",
 	"All": "All",
 	"usersLoglevel": "users",
-	"usersLoglevelTooltip": "select checkbox for readout the users"
+	"usersLoglevelTooltip": "select checkbox for readout the users",
+	"correspondentsLoglevel": "correspondents",
+	"correspondentsLoglevelTooltip": "select checkbox for readout the conrrespondents"
 }

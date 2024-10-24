@@ -29,5 +29,7 @@
     "Detailed": "Детальний",
     "All": "все",
     "usersLoglevel": "користувачів",
-    "usersLoglevelTooltip": "установіть прапорець для зчитування користувачів"
+    "usersLoglevelTooltip": "установіть прапорець для зчитування користувачів",
+    "correspondentsLoglevel": "кореспондентів",
+    "correspondentsLoglevelTooltip": "установіть прапорець для зчитування респондентів"
 }
